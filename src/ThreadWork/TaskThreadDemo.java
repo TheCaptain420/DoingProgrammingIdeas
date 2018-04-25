@@ -2,7 +2,7 @@ package ThreadWork;
 
 public class TaskThreadDemo {
     public static void main(String[] args) {
-        Runnable printA = new PrintChar('a',100);
+        Runnable printA = new PrintChar('a',1000);
         Runnable printB = new PrintChar('b',100);
         Runnable print100 = new PrintNum(100);
 
